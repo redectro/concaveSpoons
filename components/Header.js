@@ -17,12 +17,10 @@ function Header() {
             </div>
 
             {/* Right */}
-            <div>
-                <div className="flex items-center space-x-2 border-2 py-3 px-4 cursor-pointer justify-end">
-                    <div>
-                        <p>connect</p>
-                        <FaWallet />
-                    </div>
+            <div class="flex items-center space-x-4 justify-end">
+                <div class="hover:animate-bounce flex items-center space-x-2 border-2 py-3 px-5 cursor-pointer">
+                    <p>connect</p>
+                    <FaWallet />
                 </div>
             </div>
         </header>
